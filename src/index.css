@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.section-container{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 50%;
+  margin: 7rem 4rem 2rem 7rem;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 3px 5px 13px 5px #b6b4b4;
+  gap: 2rem;
+}
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.header{
+  text-align: center;
+  margin: -2rem 0 -2rem 0;
+}
+
+.adding-place{
+  display: flex;
+  margin-bottom: -1rem;
+}
+.input-for-item{
+  padding: 3px;
+  background-color: #f6f5f5;
+  border: 1px solid #b6b4b4;
+}
+.btn-for-item{
+  padding-inline: 10px;
+  color: white;
+  background-color: #47a0ff;
+  border: 1px solid #b6b4b4;
+  border-radius: 0 5px 5px 0;
+}
+.btn-for-item:hover{
+  transform: scale(1.1);
+}
+.added-item{
+  display: flex;
+  gap: 10px;
+  margin-bottom: -2rem;
+}
+.icon-btn{
+  background-color: white;
+  border: none;
+}
+.icon-1{
+  color: green;
+  font-size: larger;
+}
+.icon-1:hover{
+  transform: scale(1.3);
+}
+.icon-2{
+  color: red;
+  font-size: larger;
+}
+.icon-2:hover{
+  transform: scale(1.3);
+}
+
+.footer-btn{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.clear-btn{
+  background-color: #f15025;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+}
+.clear-btn:hover{
+  background-color: #971c93;
+  color: white;
+}
